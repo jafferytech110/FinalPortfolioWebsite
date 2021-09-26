@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/5969beb443.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>JafferyTech</title>
+  </head>
+  <body>
+    <!-- pageloader start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- pageloader ends -->
+
+    <!--background circles start-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!--background circles end-->
+    <!-- overlay Start -->
+    <div class="overlay"></div>
+    <!-- overlay end -->
+
+    <!--Main Section Start-->
+    <div class="main hidden">
+      <!-- header start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+			<p id="theme-text">Dark Mode</p>
+            <button type="button" class="nav-theme">
+              <span class="light" id="themeChange"></span>
+            </button>
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Let's Talk</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+      <!--Home Start-->
+      <section class="home-section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-text">
+              <h2>Some internal error occured. I will fix the error soon. In mean time, please send email directly to jaffery@jafferytech.com. </h2>
+              <a href="#about" class="btn link-item">get familiar</a>
+              <a href="/" class="btn link-item">home</a>
+            </div>
+            <div class="home-img">
+              <img
+                src="/images/profile-img.png"
+                alt="profile-photo"
+                class="img-box"
+              />
+            </div>
+          </div>
+        </div>
+        <footer class="home-text" id="footer">
+          <p>
+            Designed and coded by
+            <a href="www.jafferytech.com"> JafferyTech</a> &copy; <%= new Date().getFullYear() %>
+          </p>
+        </footer>
+      </section>
+      <!--Home End-->
+      <!--About Start-->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>get familiar with me</h2>
+            </div>
+            <div class="row">
+              <div class="about-img">
+                <div class="img-box">
+                  <img src="/images/profile-img.png" alt="profile-img" />
+                </div>
+              </div>
+              <div class="about-text">
+                <p>
+                 I have been in the field of web development for more than 8
+                  years. It all started as being curious about how to recognize
+                  phishing websites. I’ve always been someone who has both a
+                  creative and a logical side. Growing up, my favorite classes
+                  were usually art & math. When I discovered web development at my first
+                  year of college, I realized it would be the perfect fit. I
+                  could use my creative side to design and my logical side to
+                  code. As a bonus, being both designer and developer allows me
+                  to make sure no detail is lost in translation. When I put
+                  something in the mockup, I’m already planning how to build it
+                  out. I have experience working with startups and individuals
+                  and always be ready to have new challenges.
+                  <blockquote id="blockquote">Frequently, your website is the first impression your customers will get, so make sure it’s a good one
+                  </blockquote>
+                </p>
+                <h3>Skills</h3>
+                <div class="skills">
+                  <div class="skill-item">html</div>
+                  <div class="skill-item">css</div>
+                  <div class="skill-item">javascript</div>
+                  <div class="skill-item">express</div>
+                  <div class="skill-item">mogodb</div>
+                  <div class="skill-item">bootstrap</div>
+                  <div class="skill-item">wordpress</div>
+                  <div class="skill-item">react</div>
+                  <div class="skill-item">jQuery</div>
+                </div>
+
+                <div class="about-tabs">
+                  <button class="tab-item active" data-target="#education">
+                    education
+                  </button>
+                  <button class="tab-item" data-target="#experience">
+                    experience
+                  </button>
+                </div>
+
+                <!--education section-->
+                <div class="tab-content active" id="education">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>
+                        Bachelor of Computer Science -
+                        <span>PIMSAT</span>
+                      </h4>
+                      <p>
+                        Completed Bachelor degree from Preston Institute of Management Science and Technology.
+                        And built a complete web application for household equipments automation as final year project by using technologies like Javascript, html and css. 
+                      </p>
+                    </div>
+
+                    <div class="timeline-item">
+                      <span class="date">2010 - 2012</span>
+                      <h4>
+                        HSC -
+                        <span>Adamjee Govt Science College</span>
+                      </h4>
+                      <p>
+                        Completed my high school from Adamjee govt science college.
+                      </p>
+                    </div>
+
+                    <div class="timeline-item">
+                      <span class="date">2000 - 2011</span>
+                      <h4>
+                        School Grduation -
+                        <span>Nasra School</span>
+                      </h4>
+                      <p>
+                        Completed school with secondary school Certification SSC from Nasra School.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--education end-->
+
+                <!-- experience Start-- -->
+                <div class="tab-content" id="experience">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2016 - 2021</span>
+                      <h4>web developer - <span>Freelance</span></h4>
+                      <p>
+                        Along with working with MA Solutions, I have provided by services to happy individuals 
+                        as well. I have got experience regarding, how to fulfil individual and small businesses' requirements. 
+                        How to ask specific questions in order to minimize gap between customer and developer. And how to keep 
+                        maintainence of websites.
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date">2016 - 2020</span>
+                      <h4>Remote Web Developer - <span>MA Solutions</span></h4>
+                      <p>
+                        Provided my services as frontEnd web developer. With them, I have 
+                        worked in a team to build robust web applications by usinghtml, css, vanilla js, 
+                        jQuery, Bootstrap, and wordpress as per client's neeeds.
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date">2012 - 2016</span>
+                      <h4>IT Administrator and Web Developer - <span>DT Siddiqui Travel and Tour</span></h4>
+                      <p>
+                        Provided my services to build and maintain IT environment in office 
+                        and creating website for the company and their clients. Got experience 
+                        of creating websites with html, css and php for forms handling at backend. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- end -->
+                <a href="/assets/resume.pdf" target="_blank" class="btn"
+                  >download Resume</a
+                >
+                <a href="#contact" class="btn link-item">let's talk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="home-text" id="footer">
+          <p>
+            Designed and coded by
+            <a href="www.jafferytech.com"> JafferyTech</a> &copy; <%= new Date().getFullYear() %>
+          </p>
+        </footer>
+      </section>
+      <!--About End-->
+      <section class="portfoio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>My Work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--Portfolio item start-->
+          
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/5.png" alt="portfolio thumbnail" />
+
+              </div>
+              <h3 class="portfolio-item-title">JS Drums</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This project is built with html, css and vanilla js. It is 
+                    mobile friendly and works with keyboard, mouse and finger touch as well.
+                    Every letter mentioned in the website plays a specific sound as described.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="https://jafferytech110.github.io/JS-Drums/" target="_blank"
+                          >JafferyTech Drums</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span><a href="https://github.com/jafferytech110/JS-Drums" target="_blank">Github</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/3.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Background Generator</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This cool background generator is built with js, html 
+                    and css. It has been used for generating cool linea backgrond 
+                    and even this website background is generated by this tool.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>16 Jan 2021</span></li>
+                    <li>
+                      Technologies used - <span>HTML, CSS, Vanilla JS</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="https://jafferytech110.github.io/background-generator/" target="_blank"
+                          >Jaffery Tech background-generator</span></a
+                        >
+                    </li>
+                    <li>Code repository - <a href="https://github.com/jafferytech110/background-generator" target="_blank"><span>Github</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/4.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Rock Paper Scissor</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This is classic Rock Paper Scissor game built with JS OOP, html and 
+                    css. One can play this game with AI and has five rounds. Fontawesome icons 
+                    are also used beautifully for RPS. 
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>16 May 2021</span></li>
+                    <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a target="_blank" href="https://jafferytech110.github.io/rock-paper-scissor/"
+                          >Jaffery Tech RPS Game</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <a target="_blank" href="https://github.com/jafferytech110/rock-paper-scissor"><span>Github</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+              <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/2.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">
+                Mac OS look alike staitc website
+              </h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This project is solely creaated out of passion. I am looking forward to 
+                    create full flash MAC OS alike cloud computing experience in web browser. So far, it is created with 
+                    html and css. But soon, frontend functionality with JS and APIs and backend functionality with 
+                    Express on Node.js along with mongoDB will be implemented. Feel free to join me in this cool project.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Started - <span>6 August 2021</span></li>
+                    <li>Technologies to be used - <span>HTML, CSS, Vanilla JS, Express, Node, monogoDb, Web APIs</span></li>
+                    <li>Role - <span>Frontend and BackEnd</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="https://jafferytech110.github.io/MacOSLook/" target="_blank"
+                          >Jaffery Tech Mac OS web App</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <a href="https://github.com/jafferytech110/MacOSLook" target="_blank"><span>Github</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/6.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">frontend Mentor challenge</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This cool static looks cards are fully responsive and free to be used 
+                    in your project. It is one of the frontend mentor challenges. More challenges codes 
+                    can be found on my github profile. 
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>18 Aug 2021</span></li>
+                    <li>Technologies used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="https://jafferytech110.github.io/frontendMentorOrderSummaryComponent/" target="_blank"
+                          >Fronend Mentor Challenge</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <a href="https://github.com/jafferytech110/frontendMentorOrderSummaryComponent" target="_blank"></a><span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/7.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Stop Watch</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Classic stopwatch for on to go used. Designed with Vanilla js, html and css. 
+                    Feel free to edit the codes and send me pull requests on github.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 July 2021</span></li>
+                    <li>Technologies used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="https://jafferytech110.github.io/stopWatch/" target="_blank"
+                          >Jaffery Tech stopWatch</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <a href="https://github.com/jafferytech110/stopWatch" target="_blank"><span>Github</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+                <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="/images/portfolio/8.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Todo App</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This project is built with vanilla js, express on nodeJs, Bootstap and html. It is full functional 
+                    web app to add to do list, CRUD operation can easily be appiled with user interface and data is being stored 
+                    on mogodb Database. Its security is built with express and required user id and password before accessign app 
+                    content. 
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 sept 2021</span></li>
+                    <li>Technologies used - <span>HTML, CSS, Vanilla JS, express, node, mongoDb</span></li>
+                    <li>Role - <span>Frontend and Backend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="https://jafferytech-todo-app.herokuapp.com/" target="_blank"
+                          >Jaffery Tech todoApp</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <a href="https://github.com/jafferytech110/jafferyTechTodoApp" target="_blank"><span>Github</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--Portfolio End-->
+          </div>
+        </div>
+        <footer class="home-text" id="footer">
+          <p>
+            Designed and coded by
+            <a href="www.jafferytech.com"> JafferyTech</a> &copy; <%= new Date().getFullYear() %>
+          </p>
+        </footer>
+      </section>
+
+      <!-- contact section start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Let's Talk</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form action="/url-message" method="POST" id="contact-form">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="input-control"
+                      placeholder="Name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="input-control"
+                      placeholder="Email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="input-control"
+                      placeholder="Subject"
+                      name="subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      name="message"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p><a href="mailto:#">jaffery@jafferytech.com</a></p>
+              </div>
+              <!-- <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p><a href="tel:+4915783238433">+49-1578-3238-433</a></p>
+              </div> -->
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/Jaffery-Tech-101458008924876" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://twitter.com/JafferyTech" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/jafferytech/" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/channel/UCO9eoX_vVc8hGWULsyVazSw" target="_blank"><i class="fab fa-youtube"></i></a>
+                  <a href="https://github.com/jafferytech110" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="home-text" id="footer">
+          <p>
+            Designed and coded by
+            <a href="www.jafferytech.com"> JafferyTech</a> &copy; <%= new Date().getFullYear() %>
+          </p>
+        </footer>
+      </section>
+      <!-- contact section end -->
+    </div>
+    <!--Main Section End-->
+
+    <!-- portfolio item details popup start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="/images/portfolio/6.png" alt="pp thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title"></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio item details popup end -->
+
+    <!-- adding script here -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
